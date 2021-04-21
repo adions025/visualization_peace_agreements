@@ -14280,7 +14280,7 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="1.-T&#237;tulo">1. T&#237;tulo<a class="anchor-link" href="#1.-T&#237;tulo">&#182;</a></h2><p>Evolución de los tratados de paz a lo largo de los años en las diferentes regiones</p>
+<h2 id="1.-T&#237;tulo">1. T&#237;tulo<a class="anchor-link" href="#1.-T&#237;tulo">&#182;</a></h2><p><strong>Evolución de los tratados de paz a lo largo de los años en las diferentes regiones</strong></p>
 
 </div>
 </div>
@@ -14289,6 +14289,8 @@ a.anchor-link {
 <h2 id="2.-Descripci&#243;n">2. Descripci&#243;n<a class="anchor-link" href="#2.-Descripci&#243;n">&#182;</a></h2><p>En este documento se ha utilizado una base de datos "Peaceagreements database (PA-X)" que contiene 1868 acuerdos de paz, se encuentran diferentes procesos de paz entre los años 1990 y mediados de 2020. El dataset esta disponible en la siguiente URL: (<a href="https://www.peaceagreements.org/search">https://www.peaceagreements.org/search</a>). Se trata de
 una base de datos creada y mantenida por la Law School de la Universidad de Edimburgo.</p>
 <p>El dataset contienes diferentes conflictos que se han producidos entre estados, gobiernos, sociedad y/o grupos paramilitares a lo largo de los años y que a pesar de todo, muchos de ellos siguen teniendo problemas. En esta resolución de conflictos algunos de los temas que trataban para poner fin eran, los diferentes grupos de personas (niños, personas discapacitadas, ancianos, etc.), diferentes géneros (mujeres, hombres, niños, LGBTI y familia), la gobernanza (como reformar o establecer nuevas instituciones políticas), los derechos humanos y la igualdad, los repartos de poderes, reforma del sector de justicia, tierra, propiedad y medio ambiente, justicia transicional (amnistías o indultos) e implementación.</p>
+<p>En concreto en este análisis se va a profundizar sobe los acuerdos en los diferentes países a lo largo de los años, para intentar responder a las siguientes preguntas: ¿Cómo ha sido la evolución de los acuerdos de paz a lo largo de los años, en los diferentes países/regiones? ¿En qué regiones se ha llevado más acuerdos de paz? ¿Países con más/menos acuerdos de paz que han participado? ¿Cuáles son los tipos de acuerdos más comunes y su estado actual?</p>
+<p>Estas son algunas de las preguntas que se intentará responder en un conjunto de gráficas.</p>
 
 </div>
 </div>
@@ -15154,7 +15156,7 @@ ImSrc  --&gt; int64
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>A continuación se describre las variables que se han considerado para esta exploración.</p>
+<p>A continuación se describe las variables que se han considerado para esta exploración.</p>
 
 </div>
 </div>
@@ -15336,7 +15338,7 @@ CowWar  --&gt; 753
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>En la exploración de los datos nos centraremos principalmente en la evolución de los acuerdos a lo largo de los años dado las regiones/países, tipos de acuerdos y estado que se encuentran.</p>
+<p>En la exploración de los datos nos centraremos en la evolución de los acuerdos a lo largo de los años dado las regiones/países, tipos de acuerdos y estado que se encuentran.</p>
 <p>Primero de todo miraremos desde un punto de vista general los acuerdos por las diferentes regiones.</p>
 
 </div>
@@ -15442,7 +15444,7 @@ Name: Reg, dtype: int64</pre>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Como se puede ver la región  que más veces aparece con acuerdos es la región de Africa (excl MENA), seguida de Europa y Eurasia.</p>
+<p>Como se puede ver la región  que más veces aparece con acuerdos es la región de África (excl MENA), seguida de Europa y Eurasia.</p>
 
 </div>
 </div>
@@ -15551,7 +15553,7 @@ Name: Status, dtype: int64</pre>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Se puede observar que los acuerdo de Multiparty son el tipo de acuerdo acuerdo que más se ha realizado, en total 1725 acuerdos donde ha estado involucrado más de un grupo de protagonistas.</p>
+<p>Se puede observar que los acuerdo de Multiparty son el tipo de acuerdo que más se ha realizado, en total 1725 acuerdos donde ha estado involucrado más de un grupo de protagonistas.</p>
 
 </div>
 </div>
@@ -15663,14 +15665,14 @@ Name: Stage, dtype: int64</pre>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Se puede observar las 7 etapas en las que se pueden encontrar los diferentes acuerdos de paz. Mayorítariamente se observa que los acuerdos se encuentran en la etapa Pre y SubPar.</p>
-<p>En el stage Pre, los acuerdos pretenden que las partes lleguen a negociar las incompatibilidades que están en el centro del conflicto y en Subpar son los acuerdos que afectan a las partes que están debatiendo y acordando temas importantes para resolver.</p>
+<p>Se puede observar las 7 etapas en las que se pueden encontrar los diferentes acuerdos de paz. Mayoritariamente se observa que los acuerdos se encuentran en la etapa Pre y SubPar.</p>
+<p>En el stage Pre, los acuerdos pretenden que las partes lleguen a negociar las incompatibilidades que están en el centro del conflicto y en el stage Subpar son los acuerdos que afectan a las partes que están debatiendo y acordando temas importantes para resolver.</p>
 
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>A continuación miramos los diferentes países con más acuerdos, en esta exploración, se ha configurado el gráfico para que se pueda visualizar correctamente estableciendo solo los 10 paises con más acuerdos.</p>
+<p>A continuación, miramos los diferentes países con más acuerdos, en esta exploración, se ha configurado el gráfico para que se pueda visualizar correctamente estableciendo solo los 10 países con más acuerdos.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15834,72 +15836,10 @@ Name: Con, dtype: int64
 <p>También podemos ver los diferentes países con menos acuerdos.</p>
 
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Country&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Con&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="nb">str</span><span class="o">.</span><span class="n">split</span><span class="p">,</span> <span class="n">args</span> <span class="o">=</span> <span class="s1">&#39;/&#39;</span><span class="p">)</span>
-</pre></div>
-
-     </div>
 </div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[22]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">Country</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[22]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>0       [Afghanistan]
-1       [Afghanistan]
-2       [Afghanistan]
-3       [Afghanistan]
-4       [Afghanistan]
-            ...      
-1863          [Yemen]
-1864          [Yemen]
-1865       [Zimbabwe]
-1866       [Zimbabwe]
-1867       [Zimbabwe]
-Name: Country, Length: 1868, dtype: object</pre>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>df.Country.size
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Después de mirar las diferentes regiones y paises, nos centraremos en la evolución a lo largo de los años que se han producido estos acuerdos.</p>
+<p>Después de mirar las diferentes regiones y países, nos centraremos en la evolución a lo largo de los años que se han producido estos acuerdos.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15985,7 +15925,7 @@ Name: Country, Length: 1868, dtype: object</pre>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Primero antes que nada, haremos una transformación de la columna fecha (Dat) que contiene las fechas que se realizaron los acuerdos. Esta columna contiene las fechas en formato Object (O), la pasaremos a formato Date, pero no reemplazaremos, crearemos una nueva columna.</p>
+<p>Primero, antes que nada, haremos una transformación de la columna fecha (Dat) que contiene las fechas que se realizaron los acuerdos. Esta columna contiene las fechas en formato Object (O), la pasaremos a formato Date, pero no reemplazaremos, crearemos una nueva columna.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
@@ -16053,7 +15993,7 @@ Name: Date, Length: 1868, dtype: datetime64[ns]</pre>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Como podemos ver ahora sí la tenemos en formato datetime, de esta fecha podemos extraer solo el año y añadiendolo a una nueva columna en el dataframe.</p>
+<p>Como podemos ver ahora sí la tenemos en formato datetime, de esta fecha podemos extraer solo el año y añadiéndolo a una nueva columna en el dataframe.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -16217,7 +16157,7 @@ Name: Year, Length: 1868, dtype: int64</pre>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Como observando la serie podemos apreciar que tenemos una ligera tendencia lineal a la baja.</p>
+<p>Observando la serie podemos apreciar que tenemos una ligera tendencia lineal a la baja.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -16267,17 +16207,17 @@ Name: Year, Length: 1868, dtype: int64</pre>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Conclusiones">Conclusiones<a class="anchor-link" href="#Conclusiones">&#182;</a></h3><ul>
-<li><p>Mayorítariamente los acuerdos se encuentran en el stage Pre, los acuerdos que pretenden que las partes lleguen a negociar las incompatibilidades que están en el centro del conflicto.</p>
+<li><p>Mayoritariamente  los acuerdos se encuentran en el stage Pre, los acuerdos que pretenden que las partes lleguen a negociar las incompatibilidades que están en el centro del conflicto.</p>
 </li>
-<li><p>Los acuerdos de tipo Multiparty son el tipo de acuerdo acuerdo que más se realizado, en total 1725 acuerdos donde ha estado involucrado más de un grupo de protagonistas.</p>
+<li><p>Los acuerdos de tipo Multiparty son el tipo de acuerdo que más se realizado, en total 1725 acuerdos donde ha estado involucrado más de un grupo de protagonistas.</p>
 </li>
-<li><p>Se ha observado que entre los años 91-95 se realizaron más acuerdos, aunque desde el 2014 al 2020 en la región Middle East y North Africa también se aprecia una cantidad significante de acuerdos realizados.</p>
+<li><p>Se ha observado que entre los años 91-95 se realizaron más acuerdos, aunque desde el 2014 al 2020 en la región Middle East y North África también se aprecia una cantidad significante de acuerdos realizados.</p>
 </li>
-<li><p>Se puede apreciar principalmente la curva Europea y Eurasia que en esta región, muchos acuerdos de paz se realizaron, sobretodo entre los años 91-95, mientras que después se ha firmado un número muy bajo de acuerdos, puede que se deba a que esta región no ha tenido muchos conflictos después de estos años.</p>
+<li><p>Se puede apreciar principalmente la curva Europea y Eurasia que en esta región, muchos acuerdos de paz se realizaron, sobre todo entre los años 91-95, mientras que después se ha firmado un número muy bajo de acuerdos, puede que se deba a que esta región no ha tenido muchos conflictos después de estos años.</p>
 </li>
 <li><p>Los países con más acuerdos son Bosnia and Herzegovina/Yugoslavia (former) con más de 130 acuerdos seguido de Colombia con 128.</p>
 </li>
-<li><p>También se ha observado que varias regiones tien una ligera tendencia lineal a la baja, en otras palabras, con el pasar de los años no se han ido realizando más acuerdo de paz, se puede el caso de Asia y Europa. Se podría decir que la tendencia continuará de esta manera, aunque para hacer una anális más exahustivo se tendría que ajustar una regresión lineal para tratar la tendecia y aplicar un modelo para intetar predecir como sería el número de acuerdos en los siguientes años.</p>
+<li><p>También se ha observado que varias regiones tienen una ligera tendencia lineal a la baja, en otras palabras, con el pasar de los años no se han ido realizando más acuerdo de paz, se puede el caso de Asia y Europa. Se podría decir que la tendencia continuará de esta manera, aunque para hacer un análisis más exahustivo se tendría que ajustar una regresión lineal para tratar la tendencia y aplicar un modelo para intentar predecir cómo sería el número de acuerdos en los siguientes años.</p>
 </li>
 </ul>
 
@@ -16290,12 +16230,12 @@ Name: Year, Length: 1868, dtype: int64</pre>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>En este documento se presenta primer contacto con el dataset. Ha  sido realizado usando Jupyter Notebook en un conda enviroment que ejecuta la verisón 3.6 de Python. Las librería que se han usado son las usadas en este documento, entre las principales se tiene que destacar, padas, numpy, matplotlib.</p>
+<p>En este documento se presenta primer contacto con el dataset. Ha  sido realizado usando Jupyter Notebook en un conda enviroment que ejecuta la versión 3.6 de Python. Las librería que se han usado son las usadas en este documento, entre las principales se tiene que destacar, Padas, Numpy, Matplotlib.</p>
 <p>Lo primero que se ha realizado es la carga del dataset para realizar una primera inspección, dimensión, valores nulos, tipo de datos. Cuando se ha requerido se ha transformado para facilitar la manipulación y/o creación de visualizaciones.</p>
 <p>La herramienta que se ha utilizado para poder hacer las representaciones gráficas del dashboard es Tableau, esta herramienta permite expresar datos visualmente al transformar acciones de arrastrar y soltar en consultas de dados, en una interfaz intuitiva. Puede permitir incluso aprendizaje automático, estadísticos, lenguaje natural y preparación de los datos inteligentes para que sean más eficaces y permitan aumentar la creatividad de las personas que lo utilizan para hacer análisis.</p>
-<p>También se han realizado distintos test con Tableau para poder asegurarse del diseño adecuado que se pretende seleccionar, para que el usuario final puede interactuar. En general, se ha tenido en cuenta que la visualización de todos los gráficos sean capaces de entenderse sin poner texto que los acompañen, pero utilizando herramientas elementales que mejora mucho la legibilidad de las visualizaciones como son las etiquetas y las leyendas.</p>
+<p>También se han realizado distintas pruebas con Tableau para poder asegurarse del diseño adecuado que se pretende seleccionar, para que el usuario final puede interactuar. En general, se ha tenido en cuenta que la visualización de todos los gráficos sean capaces de entenderse sin poner texto que los acompañen, pero utilizando herramientas elementales que mejora mucho la legibilidad de las visualizaciones como son las etiquetas y las leyendas.</p>
 <p>Por último, el panel de Tableu ha facilitado la realización de las visualizaciones en comparación con matplotlib. Usando esta herramienta resulta más fácil centrarse en lo que se quiere visualizar.</p>
-<p>Een este repositorio se encuentra adjunto el dashboard de Tableau.</p>
+<p>En este repositorio se encuentra adjunto el dashboard de Tableau.</p>
 
 </div>
 </div>
@@ -16306,23 +16246,9 @@ Name: Year, Length: 1868, dtype: int64</pre>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>En el siguiente link  "link" se muestra la representación de las diferentes visualizaciones. Es un dashboard que ha sido publicado en Tableu public.</p>
+<p>En el siguiente <a href="https://public.tableau.com/profile/adonis.gonz.lez#!/vizhome/Evolutionofthepeaceagreementsovertheyearsinthedifferentregions/Dashboard1">link</a> se muestra la representación de las diferentes visualizaciones. Es un dashboard que ha sido publicado en Tableu public.</p>
 
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
 </div>
 </body>
 

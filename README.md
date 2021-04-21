@@ -1,6 +1,6 @@
 # PEC 2: Creación de visualizaciones de datos
 
-Evolución de los tratados de paz a lo largo de los años en las diferentes regiones
+**Evolución de los tratados de paz a lo largo de los años en las diferentes regiones**
 
 En este documento se ha utilizado una base de datos "Peaceagreements database (PA-X)" 
 que contiene 1868 acuerdos de paz, se encuentran diferentes procesos de paz entre los 
@@ -10,5 +10,6 @@ mantenida por la Law School de la Universidad de Edimburgo.
 
 # Dirs and files
 
+- [PEC2_informe_adonis_gonzalez](index.html)
 
 

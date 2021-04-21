@@ -5,8 +5,9 @@
 
 # Dirs and files
 
-- [PEC2_informe_adonis_gonzalez GIT PAGE](https://adions025.github.io/visualization_peace_agreements/)
-- [PEC2_informe_jupyter_notebook](src/PEC2_adonis_gonzalez.ipynb)
+- [PEC2_informe_adonis_gonzalez (Git page)](https://adions025.github.io/visualization_peace_agreements/)
+- [PEC2_informe_adonis_gonzalez (Jupyter Notebook)](src/PEC2_adonis_gonzalez.ipynb)
+- [Tableu public dashboard](https://public.tableau.com/profile/adonis.gonz.lez#!/vizhome/Evolutionofthepeaceagreementsovertheyearsinthedifferentregions/Dashboard1)
 - [PEC2_informe_pdf](PEC2_adonis_gonzalez.pdf)
 - [Tableau file](twbx/dashboard.twbx)
 

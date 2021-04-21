@@ -10,6 +10,7 @@
 - [Tableu public dashboard](https://public.tableau.com/profile/adonis.gonz.lez#!/vizhome/Evolutionofthepeaceagreementsovertheyearsinthedifferentregions/Dashboard1)
 - [PEC2_informe_pdf](PEC2_adonis_gonzalez.pdf)
 - [Tableau files (twbx)](twbx/)
+- [Dataset (twbx)](data/)
 
 # Author
 

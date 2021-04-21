@@ -9,7 +9,7 @@
 - [PEC2_informe_adonis_gonzalez (Jupyter Notebook)](src/PEC2_adonis_gonzalez.ipynb)
 - [Tableu public dashboard](https://public.tableau.com/profile/adonis.gonz.lez#!/vizhome/Evolutionofthepeaceagreementsovertheyearsinthedifferentregions/Dashboard1)
 - [PEC2_informe_pdf](PEC2_adonis_gonzalez.pdf)
-- [Tableau file](twbx/dashboard.twbx)
+- [Tableau files (twbx)](twbx/)
 
 # Author
 

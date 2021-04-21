@@ -10,6 +10,7 @@ mantenida por la Law School de la Universidad de Edimburgo.
 
 # Dirs and files
 
-- [PEC2_informe_adonis_gonzalez](index.html)
+- [PEC2_informe_adonis_gonzalez GIT PAGE](https://adions025.github.io/visualization_peace_agreements/)
+- [PEC2_informe_jupyter_notebook](src/PEC2_adonis_gonzalez.ipynb)
 
 
